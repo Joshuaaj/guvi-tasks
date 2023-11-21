@@ -1,0 +1,7 @@
+Create 20 files with .txt extensions and rename the first 5 files to .yml extension
+
+Create 20 .txt file using command
+“Touch devops{1..20}.txt”
+
+To rename first 5 files to .yml
+“rename ‘s/\.txt/.yml/’ file{1..5}.txt
